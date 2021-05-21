@@ -6,7 +6,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/banner.jpg
+  overlay_image: /assets/images/banner.jpg
   actions:
     - label: "Resume"
       url: "https://github.com/KerbalJeb/Resume/releases/latest/download/main.pdf"
