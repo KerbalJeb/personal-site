@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Alarm Clock Project
 collection: projects
 header:
@@ -22,4 +22,4 @@ My second year design course consisted of designing an alarm clock using an Ardu
 
 {% include gallery id="pcb_gallery" %}
 
-The project source files and final report are available on my [GitHub](https://github.com/KerbalJeb/ECE299DesignProject/releases/tag/V1.0) under realses.
+The project source files and final report are available on my [GitHub](https://github.com/KerbalJeb/ECE299DesignProject/releases/tag/V1.0) under releases.

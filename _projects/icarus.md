@@ -1,4 +1,7 @@
----
+<!-- ---
 title: "Icarus : A Unity Based Game"
-layout: default
----
+layout: single
+header:
+    teaser: /assets/images/icarus-shooting.png
+--- -->
+
