@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Alarm Clock Project
+title: "Alarm Clock Project"
 collection: projects
 header:
     teaser: /assets/images/alarm-img.jpg
