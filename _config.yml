@@ -65,8 +65,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: posts
+      path: "_projects"
     values:
       layout: single
       author_profile: true

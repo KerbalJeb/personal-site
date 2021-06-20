@@ -1,5 +1,6 @@
 ---
 title: "Reflow Oven PCB"
+collection: projects
 header:
     teaser: /assets/images/reflow-pcb-whole.jpg
 pcb_fixes_gallery:
@@ -11,6 +12,7 @@ pcb_fixes_gallery:
       title: "Soldering the rectifier on upside down"
 
 ---
+![Finished PCB](/assets/images/reflow-pcb-whole.jpg)
 
 I'm working on converting a toaster oven into a reflow oven to make using SMD part easier. Mostly this requires a custom temperature controller board to allow for the correct temperature profiles. To this end I have designed a temperature control board based around the STM32F042. I chose this chip because it features crystal less USB, so I can relatively easily configure it as a virtual USB COM port to set new temperature profiles. A solid state relay is used to turn on and off the heater elements so they can be switched at higher speeds then a mechanical relay would allow. The board also features a small onboard transformer/rectifier circuit so that is it can be powered directly from mains power, without the need for a separate power supply. The temperature is measured through the use of a thermocouple and a MAX31855 amplifier. The last feature I added is the ability to connect to a small I2C OLED display and some buttons to add a basic UI to to oven.
 
